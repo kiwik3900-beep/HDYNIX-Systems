@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #0b0d10 !important;
+  color: #ffffff !important;
+}
+
+/* Selection */
+::selection {
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+}
+
+/* Main dark backgrounds */
+.bg-\[\#020617\],
+.bg-\[\#030b18\] {
+  background-color: #0b0d10 !important;
+}
+
+/* All cyan / blue text becomes silver */
+[class*="text-cyan-"],
+[class*="text-blue-"],
+[class*="hover:text-cyan-"]:hover,
+[class*="hover:text-blue-"]:hover {
+  color: #e5e7eb !important;
+}
+
+/* All cyan / blue buttons become silver */
+[class*="bg-cyan-"]:not([class*="/"]),
+[class*="bg-blue-"]:not([class*="/"]) {
+  background-color: #f3f4f6 !important;
+}
+
+/* Transparent cyan / blue backgrounds become soft white glass */
+[class*="bg-cyan-"][class*="/"],
+[class*="bg-blue-"][class*="/"] {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Hover backgrounds */
+[class*="hover:bg-cyan-"]:hover,
+[class*="hover:bg-blue-"]:hover {
+  background-color: #ffffff !important;
+}
+
+/* Cyan / blue borders become white borders */
+[class*="border-cyan-"],
+[class*="border-blue-"],
+[class*="hover:border-cyan-"]:hover,
+[class*="hover:border-blue-"]:hover {
+  border-color: rgba(255, 255, 255, 0.14) !important;
+}
+
+/* Gradients: blue/cyan to silver/gray */
+[class*="from-cyan-"],
+[class*="from-blue-"] {
+  --tw-gradient-from: #ffffff var(--tw-gradient-from-position) !important;
+  --tw-gradient-to: rgba(255, 255, 255, 0) var(--tw-gradient-to-position) !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
+}
+
+[class*="via-cyan-"],
+[class*="via-blue-"] {
+  --tw-gradient-via: #d1d5db var(--tw-gradient-via-position) !important;
+}
+
+[class*="to-cyan-"],
+[class*="to-blue-"] {
+  --tw-gradient-to: #6b7280 var(--tw-gradient-to-position) !important;
+}
+
+/* Neon effects become silver */
+.neon-glow {
+  box-shadow: 0 0 45px rgba(255, 255, 255, 0.12) !important;
+}
+
+.neon-text {
+  text-shadow: 0 0 24px rgba(255, 255, 255, 0.14) !important;
+}
+
+/* Glassmorphism */
+.glass-card {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(18px);
+}
+
+/* Grid background */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px) !important;
+  background-size: 64px 64px;
+}
+
+/* Marquee animation if used */
+.marquee-track {
+  animation: marquee 40s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+

@@ -1,0 +1,31 @@
+{
+  "app": {
+    "[project]/src/haytham/hdynix-systems/app/About/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
+    "[project]/src/haytham/hdynix-systems/app/_not-found/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
+    "[project]/src/haytham/hdynix-systems/app/contacte/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
+    "[project]/src/haytham/hdynix-systems/app/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
+    "[project]/src/haytham/hdynix-systems/app/portfolio/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ],
+    "[project]/src/haytham/hdynix-systems/app/service/page": [
+      "static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+      "static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
