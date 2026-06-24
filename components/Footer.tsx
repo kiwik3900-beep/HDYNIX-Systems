@@ -30,7 +30,7 @@ export default function Footer() {
               globally.
             </p>
             <a
-              href="mailto:contact@hdynixsystems.com"
+              href="mailto:hdynixsystems.off@gmail.com"
               className="inline-flex items-center gap-1 text-cyan-400 font-semibold hover:underline"
             >
               contact@hdynixsystems.com
@@ -67,3 +67,4 @@ export default function Footer() {
     </footer>
   );
 }
+

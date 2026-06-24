@@ -9,6 +9,8 @@ import Stats from "../components/Stats";
 import Testimonials from "../components/Testimonials";
 import FinalCTA from "../components/FinalCTA";
 import Footer from "../components/Footer";
+import BusinessOS from "./BusinessOS";
+
 
 export default function Home() {
   return (
@@ -22,8 +24,10 @@ export default function Home() {
       <FeaturedProjects />
       <Stats />
       <Testimonials />
+      <BusinessOS />
       <FinalCTA />
       <Footer />
     </main>
   );
 }
+
