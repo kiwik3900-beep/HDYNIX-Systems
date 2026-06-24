@@ -34,6 +34,14 @@ const paymentStats = [
     "SOL",
     "USDC",
   ];
+  const financeFeatures = [
+    ["Invoice System", "Professional invoices with logo, invoice number, client, project, services, quantity, price, currency, due date, payment status and PDF export."],
+    ["Financial Reports", "Daily, weekly, monthly, quarterly and yearly reports covering revenue, expenses, profit, employee payments, client payments and wallet balances."],
+    ["Analytics Dashboard", "Interactive charts for revenue growth, profit trends, expenses, revenue by client, service, country and monthly or yearly comparisons."],
+    ["Advanced Filters", "Filter financial records by date, client, project, employee, currency, wallet, payment method and payment status."],
+    ["Owner Finance Security", "Owner-only access, encrypted records, audit logs, backups, session logs, device logs, optional 2FA and no public visibility."],
+    ["Future Payment Providers", "Designed to support additional payment providers, banking APIs, crypto gateways and future AI finance integrations."],
+  ];
   
   export default function PaymentsInfrastructure() {
     return (
@@ -142,6 +150,38 @@ const paymentStats = [
               </div>
             </div>
           </div>
+          <div className="mt-10 rounded-3xl border border-white/10 bg-black/40 p-6">
+  <h3 className="text-2xl font-bold mb-6">
+    Owner Finance System
+  </h3>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+    {financeFeatures.map(([title, desc]) => (
+      <div
+        key={title}
+        className="rounded-2xl border border-cyan-500/20 bg-white/[0.04] p-5 hover:scale-105 hover:bg-cyan-500/10 hover:border-cyan-400/70 transition-all duration-300"
+      >
+        <h4 className="text-lg font-semibold mb-3">{title}</h4>
+        <p className="text-gray-400 text-sm leading-6">{desc}</p>
+      </div>
+    ))}
+  </div>
+</div>
+<div className="mt-10 rounded-3xl border border-cyan-500/20 bg-black/40 p-8 text-center">
+  <h3 className="text-3xl font-bold mb-4">
+    Owner Finance System
+  </h3>
+
+  <p className="text-gray-400 max-w-3xl mx-auto leading-8 mb-6">
+    Complete financial control for HDYNIX Systems with private reporting,
+    invoice management, revenue tracking, multi-currency operations,
+    payment monitoring and enterprise-grade security.
+  </p>
+
+  <button className="rounded-xl border border-cyan-500/30 bg-cyan-500/10 px-6 py-3 text-cyan-300 hover:bg-cyan-500/20 transition">
+    Enterprise Finance Ready
+  </button>
+</div>
   
           <div className="mt-10 rounded-2xl border border-cyan-500/20 bg-cyan-500/10 p-5 text-center text-cyan-200">
             Enterprise Ready · Global Payments · Multi-Currency · Crypto Payments · Financial Reports · Secure Transactions
@@ -150,4 +190,3 @@ const paymentStats = [
       </section>
     );
   }
-  
