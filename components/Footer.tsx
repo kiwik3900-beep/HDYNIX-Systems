@@ -33,7 +33,7 @@ export default function Footer() {
               href="mailto:hdynixsystems.off@gmail.com"
               className="inline-flex items-center gap-1 text-cyan-400 font-semibold hover:underline"
             >
-              contact@hdynixsystems.com
+             hdynixsystems.off@gmail.com
               <ArrowUpRight className="w-4 h-4" />
             </a>
           </div>
@@ -67,4 +67,5 @@ export default function Footer() {
     </footer>
   );
 }
+
 

@@ -10,6 +10,7 @@ import Testimonials from "../components/Testimonials";
 import FinalCTA from "../components/FinalCTA";
 import Footer from "../components/Footer";
 import BusinessOS from "./BusinessOS";
+import PaymentsInfrastructure from "../components/PaymentsInfrastructure";
 
 
 export default function Home() {
@@ -25,9 +26,12 @@ export default function Home() {
       <Stats />
       <Testimonials />
       <BusinessOS />
+      <PaymentsInfrastructure />
       <FinalCTA />
       <Footer />
     </main>
   );
 }
+
+
 
