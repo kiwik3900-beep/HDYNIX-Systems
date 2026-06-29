@@ -11,6 +11,7 @@ const links = [
   { href: "/contacte", label: "Contact" },
   { href: "/client-portal", label: "Portal" },
   { href: "/client-portal", label: "Client Portal" },
+  { href: "/admin", label: "Admin" },
 ];
 
 export default function Navbar() {
